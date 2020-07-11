@@ -1,0 +1,37 @@
+To be optimised later..
+
+Lazyload.,masonry  https://mdbootstrap.com/docs/react/layout/masonry/
+https://codepen.io/golle404/pen/wWoXwz
+
+footer and floating nav in landing
+Scroll bar in homepage
+
+Add a custom transformation for homepage
+transformation using window.onscroll javascript
+
+write click to continue first page
+
+Add refs.. 
+ https://medium.com/trabe/getting-rid-of-finddomnode-method-in-your-react-application-a0d7093b2660#:~:text=As%20we%20can%20see%2C%20findDOMNode,element%20we%20want%20to%20reference.
+
+React Lifecycle 
+
+Dynamic Gallery Page with infinite Scroll
+gallery loading is dynamic
+
+Card Components for about pages
+
+Delete Unnecessary Elements.
+
+Check for the responsiveness.. in mobile mode chrome
+
+try to remove container.js and iplement location in app.js file
+
+Implement login
+and fetch images using database. firebase
+
+integrate mailchimp.
+
+make an admin panel for uploading images
+
+proptypes

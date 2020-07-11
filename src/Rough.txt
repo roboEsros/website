@@ -1,0 +1,103 @@
+// HomeState={
+//     tab:'Home'
+// }
+
+// homeStateHandler=(activeTab)=>{
+//     switch (activeTab){
+//         case "Home" :   this.setState({tab:"Home"}); break;
+//         case "Message": this.setState({tab:"Message"}); break;
+//         case "Gallery": this.setState({tab:"Gallery"}); break;
+//         case "About":    this.setState({tab:"About"}); break;
+//         case "Contact": this.setState({tab:"Contact"}); break;
+//         default:
+//              this.setState({tab:"Home"});
+//         }
+// }
+
+//  contentHandler=(x)=>{
+//     switch (x){
+//         case "Home" :   return(<h1>case Home</h1>);
+//         case "Message": return(<h1>Message</h1>);
+//         case "Gallery": return(<h1>Gallery</h1>);
+//         case "About":    return(<h1>About</h1>);
+//         case "Contact": return(<h1>Contact</h1>);
+//         default:
+//              return(<h1>Invalid Case!</h1>);
+//         }
+// }
+
+for landing page ..misses some links
+                        <MDBNav className='justify-content-center font-weight-bold '>
+                        <MDBNavItem className="">
+                            <MDBNavLink className="white-text" to="/home"> Home</MDBNavLink>
+                        </MDBNavItem>
+                        <MDBNavItem className="">
+                            <MDBNavLink className="white-text" to="/message"> Message</MDBNavLink>
+                        </MDBNavItem>
+                        <MDBNavItem className="">
+                            <MDBNavLink className="white-text" to="/about"> About Us</MDBNavLink>
+                        </MDBNavItem>
+                        <MDBNavItem className="">
+                            <MDBNavLink className="white-text" to="/contact"> Contact Us</MDBNavLink>
+                        </MDBNavItem>
+                        <MDBNavItem className="">
+                            <MDBNavLink className="white-text" disabled to="/"> Coming Soon</MDBNavLink>
+                        </MDBNavItem>
+                        </MDBNav>
+
+
+
+ <MDBCol>
+      <MDBCard style={{ width: "22rem" }}>
+        <MDBCardImage className="img-fluid" src={props.src} waves />
+        {/* <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            Some quick example text to build on the card title and make
+            up the bulk of the card&apos;s content.
+          </MDBCardText>
+
+          "https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+
+          <MDBBtn href="#">MDBBtn</MDBBtn>
+        </MDBCardBody> */}
+      </MDBCard>
+    </MDBCol>
+
+    <MDBCardImage className=""style={{maxHeight: '100%',  minWidth: '100%' , objectFit:'cover', verticalAlign:'bottom'}} 
+            src={props.src} waves />
+
+            var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+window.onscroll = ()=>{if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }};
+ 
+
+
+MDBNav  *   wt
+mdbnavitem  *  ot
+mdbnavlink  * navlink
+
+
+{/* <MDBNavItem className='pa0.5 mr-1 grow'>
+        <MDBNavLink className="white-80" to="/home" >Home</MDBNavLink>
+      </MDBNavItem>
+        <MDBNavItem className='pa0.5 mr-1 grow'>
+        <MDBNavLink className="white-80" to="/message" >Message</MDBNavLink>
+      </MDBNavItem>
+      <MDBNavItem className='pa0.5 mr-1 grow'>
+        <MDBNavLink className="white-80" to="/gallery" >Gallery</MDBNavLink>
+      </MDBNavItem>
+      <MDBNavItem className='pa0.5 mr-1 grow'>
+        <MDBNavLink className="white-80" to="/about" >About Us</MDBNavLink>
+      </MDBNavItem>
+      <MDBNavItem className='pa0.5 mr-1 grow'>
+        <MDBNavLink className="white-80" to="/contact" >Contact Us..</MDBNavLink>
+      </MDBNavItem> */}
+
+        
+  // const tabs1=['Home','Message','Gallery','About Us','Contact Us..']; //message
+  // const tabs2=['/home','/message','/gallery','/about','/contact'];  //route
